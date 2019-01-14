@@ -5,23 +5,21 @@ Jan-2019
 **Created by Nikos Georgousis**
 
 An http server for nodemcu (lua) based ESP8266 projects. 
-With this server you can receive commands IFTTT utilizing the webhooks fucnionality.
+With this server you can receive commands IFTTT utilizing the webhooks functionality.
 
 #### What's hot?
-  - Simple configuration from ESP8266 side
-  - A plain text can be used as filter (you can call it password, while is not) to avoid overload  
+  - Simple configuration from ESP8266 side.
+  - A plain text can be used as filter (you can call it password, while is not) to avoid overload.  
 
 #### How to use
-> Change "cmdString" with keyword of your preference (optional but recommended).
+> Change "cmdString" value with keyword of your preference (optional but recommended).
 > Set the accepted keywords on the "Decide" function.
 > Change server port - default is set to 8077 (optional).
 > Upload your lua file to the ESP8266.
 
-
 ##### Testing
-Ensure that your ESP8266 module has access to the network. In most cases a `print(wifi.sta.getip())` is enough to verify the IP address. Then execute the lua script. 
+Ensure that your ESP8266 module has access to the network. In most cases a `print(wifi.sta.getip())` is enough to verify the IP address. Then execute the lua script (dofile). 
 Open your web browser and type:
- 
 http://`IP_Address`:`Port`/`cmdString`:`Command`
 - `IP_Address` = Your ESP8266 WiFi IPv4 adress 
 - `Port` = The server port (default is 8077)
@@ -31,6 +29,6 @@ http://`IP_Address`:`Port`/`cmdString`:`Command`
 If everything is correct your will see a webpage with *"Detected: "* followed by your command (e.g. *Detected: on*).
 
 ##### Limitations
-This is an tcp server. NodeMCU firmaware has limited resources and this cannot co-exits if another tcp set on your project.
+This is an tcp server. NodeMCU firmware has limited resources, thus this server cannot co-exist if another tcp server on your project.
 
-The server works under plain http connection so it is possible to get attacked by sniffing the TCP communication. Thus, it is not recommended to use it on your nuclear reactor.
+The server works under plain http connection so it is possible to get attacked by sniffing the TCP communication. Be aware that it is not recommended to use it on your nuclear reactor.
