@@ -29,7 +29,7 @@ http://`IP_Address`:`Port`/`cmdString`:`Command`
 - `Port` = The server port (default is 8077)
 - `cmdString` = Your keyword (default is "webhooks")
 - `Command` = Your command. e.g. on the default configuration you can use "on", "off", "enable", "turnon", "turnoff", "disable" and "test"
-
+[![N|Solid](https://raw.githubusercontent.com/limbo666/IFTTT_to_ESP8266/master/Other/testing.gif)
 If everything is correct your will see a webpage with *"Detected: "* followed by your command (e.g. *Detected: on*).
 
 ##### Limitations
