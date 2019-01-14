@@ -13,9 +13,13 @@ With this server you can receive commands IFTTT utilizing the webhooks functiona
 
 #### How to use
 > Change "cmdString" value with keyword of your preference (optional but recommended).
+
 > Set the accepted keywords on the "Decide" function.
+
 > Change server port - default is set to 8077 (optional).
+
 > Upload your lua file to the ESP8266.
+
 
 ##### Testing
 Ensure that your ESP8266 module has access to the network. In most cases a `print(wifi.sta.getip())` is enough to verify the IP address. Then execute the lua script (dofile). 
