@@ -38,6 +38,7 @@ To connect to your server, you should add the link to the action URL field.
 http://'your_ip_or_ddns':8077/Webhooks:'Your_Command'
 - `your_ip_or_ddns` = Your public IP or your dynamic dns   
 - `Your_Command` = The command you want to send (an expected from your ESP module)
+[![N|Solid](https://raw.githubusercontent.com/limbo666/IFTTT_to_ESP8266/master/Other/IFTTT_Action.png)
 
 The method should be set as "GET"
 
