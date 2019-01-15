@@ -1,8 +1,7 @@
 # IFTTT to ESP8266
-[![N|Solid](https://raw.githubusercontent.com/limbo666/IFTTT_to_ESP8266/master/Other/HWP.png)](https://http://georgousis.info/#Creations)
-
-Jan-2019
 **Created by Nikos Georgousis**
+[![N|Solid](https://github.com/limbo666/IFTTT_to_ESP8266/blob/master/Other/logo1.jpg?raw=true)]
+Jan-2019
 
 An http server for nodemcu (lua) based ESP8266 projects. 
 With this server you can receive commands IFTTT utilizing the webhooks functionality.
@@ -35,7 +34,7 @@ If everything is correct your will see a webpage with *"Detected: "* followed by
 #### IFTTT setup
 On IFTTT side you have create as many applets as you like and set the action to webhooks. 
 To connect to your server, you should add the link to the action URL field. 
-http://'your_ip_or_ddns':8077/Webhooks:'Your_Command'
+http://`your_ip_or_ddns`:8077/Webhooks:`Your_Command`
 - `your_ip_or_ddns` = Your public IP or your dynamic dns   
 - `Your_Command` = The command you want to send (an expected from your ESP module)
 [![N|Solid](https://raw.githubusercontent.com/limbo666/IFTTT_to_ESP8266/master/Other/IFTTT_Action.png)
@@ -46,3 +45,5 @@ The method should be set as "GET"
 This is an tcp server. NodeMCU firmware has limited resources, thus this server cannot co-exist if another tcp server on your project.
 
 The server works under plain http connection so it is possible to get attacked by sniffing the TCP communication. Be aware that it is not recommended to use it on your nuclear reactor.
+
+[![N|Solid](https://raw.githubusercontent.com/limbo666/IFTTT_to_ESP8266/master/Other/HWP.png)](https://georgousis.info/#Creations)
