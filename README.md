@@ -1,14 +1,14 @@
 # IFTTT to ESP8266
-**Created by Nikos Georgousis**
-[![N|Solid](https://github.com/limbo666/IFTTT_to_ESP8266/blob/master/Other/logo1.jpg?raw=true)]
-Jan-2019
+
+![N|Solid](https://github.com/limbo666/IFTTT_to_ESP8266/blob/master/Other/logo1.jpg?raw=true)
 
 An http server for nodemcu (lua) based ESP8266 projects. 
 With this server you can receive commands IFTTT utilizing the webhooks functionality.
 
 #### What's hot?
   - Simple configuration from ESP8266 side.
-  - A plain text can be used as filter (you can call it password, while is not) to avoid overload.  
+  - A plain text can be used as filter (you can call it password, while is not) to avoid overload.
+  - Immediate response* 
 
 #### How to use
 > Change "cmdString" value with keyword of your preference (optional but recommended).
@@ -46,4 +46,9 @@ This is an tcp server. NodeMCU firmware has limited resources, thus this server 
 
 The server works under plain http connection so it is possible to get attacked by sniffing the TCP communication. Be aware that it is not recommended to use it on your nuclear reactor.
 
+*Immediate response is depended on IFTTT webhooks stability and server load. 
+
+
 [![N|Solid](https://raw.githubusercontent.com/limbo666/IFTTT_to_ESP8266/master/Other/HWP.png)](https://georgousis.info/#Creations)
+**Hand Water Pump Jan-2019**
+**Created by Nikos Georgousis**
