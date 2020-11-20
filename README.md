@@ -49,6 +49,6 @@ The server works under plain http connection so it is possible to get attacked b
 *Immediate response is depended on IFTTT webhooks stability and server load. 
 
 
-[![N|Solid](https://raw.githubusercontent.com/limbo666/IFTTT_to_ESP8266/master/Other/Logo2.png)](https://georgousis.info/#Creations)
-**Hand Water Pump Jan-2019**
+[![N|Solid](https://raw.githubusercontent.com/limbo666/IFTTT_to_ESP8266/master/Other/Logo2.png)](https://georgousis.info/#Creations)\
+**Hand Water Pump Jan-2019**\
 **Created by Nikos Georgousis**
